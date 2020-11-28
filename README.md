@@ -3,7 +3,7 @@ Experimenting with implementing very simple back-end CRUD in some languages and 
 Maybe I'll make with this frameworks:
 
 Python:
-- [ ] FastAPI
+- [x] FastAPI
 - [ ] Django
 - [ ] Flask
 

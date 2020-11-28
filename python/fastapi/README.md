@@ -1,4 +1,4 @@
-I'm using Python 3.8 here
+I'm using Python 3.8 here with type hinting.
 
 More dependencies:
 `uvicorn` installed in system to reload the FastAPI `app`.
