@@ -1,0 +1,44 @@
+verbo GET -> método index -> retorna todos os registros da entidade (geralmente em array)
+digamos que no seu banco existe uma tabela que guarda os TODOs
+então pro cliente recuperar todos os TODOs, ele mandaria um GET pra rota /todos
+
+—————-
+
+verbo GET -> método show -> retorna um único registro da entidade
+
+continuando com o exemplo de TODOs
+
+o cliente iria chamar a rota /todos/123 onde 123 seria o id do TODO que ele quer obter
+
+—————-
+
+verbo POST -> método create -> vai receber um JSON na requisição contendo os dados do TODO que o cliente quer criar, geralmente vc n vai retornar nada, só um status code de 201 (created)
+
+o cliente mandaria um JSON pra a rota /todos
+
+João Marcos, [20.11.20 14:41]
+—
+
+bora lá
+
+verbo DELETE -> método delete -> retorna basicamente um status code de 200
+
+se o cliente quiser deletar o TODO com id 123 ele mandaria um DELETE pra rota /todos/123
+
+e por final
+
+esse tu vai deixar por último
+
+——————
+
+verbo PUT -> método update -> recebe um JSON com os dados que o cliente quer alterar do TODO, n retorna nada, só um status code de 202 (accepted)
+
+se o cliente quiser alterar o nome do TODO  que tem o id 123, ele vai mantar um PUT pra rota /todos
+
+e lá dentro vai ter um JSON que vai dizer qual o id da ocorrência que vai ser alterada
+
+ufa
+
+I think that's it
+
+deixa o PUT por último q ele é o q vai dar mais trabalho
